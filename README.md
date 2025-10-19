@@ -59,5 +59,3 @@ Its main purpose is to **protect servers from spammers or hacked accounts** by i
    ```bash
    python Banne_Bot.py
    ```
-
-Would you like me to format it for **GitHub Markdown** (with emojis, code blocks, and badges for Python version, etc.) so it looks more professional on your repo page?

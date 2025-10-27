@@ -11,6 +11,7 @@ Its main purpose is to **protect servers from spammers or hacked accounts** by i
 *  Sends a direct message (DM) to the banned user explaining the reason.
 *  Posts a warning message in the protected channel about the ban.
 *  Saves bot activity and errors in a `discord.log` file for debugging.
+*  Sends this logs into a specifice channel called log.
 
 ### 🧩 Requirements
 
@@ -52,6 +53,7 @@ Its main purpose is to **protect servers from spammers or hacked accounts** by i
    ```env
    DISCORD_TOKEN=your_discord_bot_token
    PROTECTED_CHANNEL_ID=1425575887260352653
+   LOG_CHANNEL_ID=1432473254349639880
    ```
 
 4. **Run the bot:**
